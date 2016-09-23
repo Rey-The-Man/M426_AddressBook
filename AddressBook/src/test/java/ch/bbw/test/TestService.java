@@ -5,7 +5,6 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
-import ch.bbw.addressbook.Address;
 import ch.bbw.addressbook.AddressService;
 
 public class TestService {
