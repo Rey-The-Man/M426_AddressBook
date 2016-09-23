@@ -5,6 +5,9 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
+import ch.bbw.addressbook.Address;
+import ch.bbw.addressbook.AddressService;
+
 public class TestService {
 
 	@Before
@@ -13,7 +16,8 @@ public class TestService {
 
 	@Test
 	public void test1() {
-		assertTrue("Test Service",  1==1);
+		AddressService as = new AddressService();
+		assertTrue("Test Service",  as != null);
 	}
 	
 }
